@@ -1,0 +1,51 @@
+:root {
+    --background-color: #fafafa;
+    --text-color: #333;
+    --primary-color: #fff;
+    --box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  /* css for header */
+  header {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 1px;
+    padding: 1rem 4rem;
+    margin-bottom: 2.5rem;
+    background-color: var(--primary-color);
+  }
+  
+  /* ...rest of the CSS */
+  
+  @media (max-width: 900px) {
+    .search-filter-container > div {
+      flex-direction: column;
+      gap: 16px;
+    }
+    .country-cards-container {
+      flex-direction: column;
+      padding-inline: 1rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    header {
+      padding-inline: 1rem;
+    }
+    .search-filter-container {
+      padding-inline: 1rem;
+    }
+    header {
+      font-size: 12px;
+    }
+  }
+  

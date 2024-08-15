@@ -1,0 +1,78 @@
+/* main{
+    display: flex;
+} */
+ body{
+    font-family: "Nunito Sans", sans-serif;
+ }
+
+.back-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 8px; */
+    width: 130px;
+    padding-block: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    margin-left: 64px;
+    margin-bottom: 75px;
+    /* font-size: 20px; */
+}
+main{
+    display: flex;
+    gap: 120px;
+    margin-left: 64px;
+
+}
+.country-name{
+    font-size: 24px;
+
+}
+main img{
+    max-width: 550px;
+ 
+}
+ul{
+    position: relative;
+}
+li{
+    list-style-type: none;
+    color: #111517;
+    margin-bottom: 16px;
+    /* font-size: 20px; */
+}
+.right-side-info{
+    position: absolute;
+    top: 100px;
+    left: 350px;
+ 
+  
+}
+
+.border-countries-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.border-countries{
+    font-weight: bold;
+}
+.border-countries-container p{
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+
+}
+
+
+
+
+
+
